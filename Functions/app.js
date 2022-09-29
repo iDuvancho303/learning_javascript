@@ -1,11 +1,14 @@
 // VARIABLES
 
 // Using LET
+let myName = 'Duvan';
+
+console.log(myName);
 
 
 
 
-
+/*
 // fUNCTIONS
 // Write a simple function
 "use strict";

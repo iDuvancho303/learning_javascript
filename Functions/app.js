@@ -1,14 +1,14 @@
 // VARIABLES
 
 // Using LET
-let myName = 'Duvan';
+let myName = 'Duvan'; // cannot be a reserved keyword
 
 console.log(myName);
 
 
 
 
-/*
+
 // fUNCTIONS
 // Write a simple function
 "use strict";
@@ -30,3 +30,5 @@ function name(name1) {
 }
 
 name(name1);
+
+

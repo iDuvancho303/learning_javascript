@@ -1,5 +1,5 @@
 // VARIABLES
-
+/*
 // Using LET
 let myName = 'Duvan'; // cannot be a reserved keyword
 
@@ -14,3 +14,13 @@ let isApproved = true; // boolean literal
 const interestRate = 3.5; // const variales cannot be reassign 
 
 console.log(interestRate);
+*/
+// OBJECTS
+let person = {
+    name: 'Duvan',
+    age: 32,
+};
+
+person.age = 44; // changing the value of age using dot notation
+
+console.log(person.age);

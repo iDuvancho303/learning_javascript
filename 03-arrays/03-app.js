@@ -11,4 +11,5 @@ selectColors[2] = 'Yellow';
 
 console.log(selectColors[2]); // returns "yellow"
 
-//
+// using a property to check the length of an array
+

@@ -16,19 +16,19 @@ console.log(item.length); // returns -> 16
 
 
 // Methods
-// Using 'indexOf'  method
+// Using 'indexOf' 
 
 var item2 = 'student ipad';
 
 console.log(item2.indexOf('ip')); // returns -> 8
 
-// Using 'substring' method
+// Using 'substring' 
 
 var item3 = 'student chromebook';
 
 console.log(item3.substring(8,10)); // returns letters -> ch
 
-// Using 'replace' method
+// Using 'replace' 
 
 var item4 = 'chromebook cart';
 
@@ -39,4 +39,10 @@ console.log(item4.replace("chromebook", "ipad")); // returns -> ipad cart
 var item5 = 'macbook';
 
 console.log(item5.toUpperCase()); // returns -> MACBOOK
+
+// Using 'join' 
+
+var item6 = ['bottle', 5, true];
+
+console.log(item6.join(' - ')); // returns -> bottle - 5 - true
  

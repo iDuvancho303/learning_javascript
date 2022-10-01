@@ -34,5 +34,9 @@ var item4 = 'chromebook cart';
 
 console.log(item4.replace("chromebook", "ipad")); // returns -> ipad cart
 
+// Using 'toUpperCase'
 
+var item5 = 'macbook';
+
+console.log(item5.toUpperCase()); // returns -> MACBOOK
  

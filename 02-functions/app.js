@@ -1,7 +1,6 @@
 
 // fUNCTIONS
 // Write a simple function
-"use strict";
 
 function colors() {
     console.log('Hello World :) ');

@@ -53,9 +53,19 @@ var fruits = ['Mango', 'Orange', 'watermelon', 'passion fruit'];
 console.log(fruits.pop()); // returns -> passion fruit
 
 // or
+// here I used two differen type of methods inside the same example
 
 fruits.pop();
 console.log(fruits.join(' - ')); // returns -> Mango - Orange
+
+// Using 'push'
+
+var motorcycle = ['Ducati', 'Honda', 'Kawazaki'];
+
+motorcycle.push('Yamaha');
+
+console.log(motorcycle); // returns -> ['Ducati', 'Honda', 'Kawazaki', 'Yamaha']
+
 
 
  

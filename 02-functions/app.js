@@ -32,4 +32,8 @@ fullName('Duvan' , 'Flores');
 
 // Calculating a value
 
+function square(number) {
+    return number * number; 
+}
 
+console.log(square(3)); // returns -> 9

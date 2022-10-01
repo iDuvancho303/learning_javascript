@@ -21,4 +21,10 @@ console.log(item.length); // returns -> 16
 var item2 = 'student ipad';
 
 console.log(item2.indexOf('ip')); // returns -> 8
+
+// Using 'substring' method
+
+var item3 = 'student chromebook';
+
+console.log(item3.substring(8,10)); // returns letters -> ch
  

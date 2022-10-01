@@ -50,5 +50,12 @@ console.log(item6.join(' - ')); // returns -> bottle - 5 - true
 
 var fruits = ['Mango', 'Orange', 'watermelon', 'passion fruit'];
 
-console.log(fruits.pop());
+console.log(fruits.pop()); // returns -> passion fruit
+
+// or
+
+fruits.pop();
+console.log(fruits.join(' - ')); // returns -> Mango - Orange
+
+
  

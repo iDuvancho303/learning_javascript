@@ -6,6 +6,9 @@ let selectColors = ['green', 'blue']; // array literal, zero or more elements en
 
 console.log(selectColors[1]); // returns "blue"
 
-selectColors[2, 3] = 'orange, purple';
+// adding another element to an array
+selectColors[2] = 'Yellow';
 
-console.log(selectColors);
+console.log(selectColors[2]); // returns "yellow"
+
+//

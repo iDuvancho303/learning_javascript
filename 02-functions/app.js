@@ -21,10 +21,15 @@ name('Carlos'); // returns "Hi my name is Duvan";
 
 
 // Write a function with 2 parameters
+// performing a task
 
 function fullName(name, lastName) {
     console.log('Hi my name is ' + '' + name + ' ' + lastName); // Returns -> Hi my name is Duvan Flores
 }
 
 fullName('Duvan' , 'Flores');
+
+
+// Calculating a value
+
 

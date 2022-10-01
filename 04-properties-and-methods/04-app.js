@@ -45,4 +45,10 @@ console.log(item5.toUpperCase()); // returns -> MACBOOK
 var item6 = ['bottle', 5, true];
 
 console.log(item6.join(' - ')); // returns -> bottle - 5 - true
+
+// Using 'pop'
+
+var fruits = ['Mango', 'Orange', 'watermelon', 'passion fruit'];
+
+console.log(fruits.pop());
  

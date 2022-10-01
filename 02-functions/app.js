@@ -1,14 +1,13 @@
 
 // fUNCTIONS
+
 // Write a simple function
 
 function colors() {
-    console.log('Hello World :) ');
+    console.log('Hello World :) '); // returns "Hello World"
 }
 
-colors();
-
-// returns "Hello Worlds"
+colors(); // calling the function
 
 // Write a function with 1 parameter
 let name1 = 'Duvan';

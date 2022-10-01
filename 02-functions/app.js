@@ -17,6 +17,8 @@ function name(name1) {
 
 }
 
-name(name1);
+name('Duvan'); // returns "Hi my name is Duvan";
+
+
 
 

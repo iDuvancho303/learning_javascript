@@ -16,4 +16,10 @@ if (x == 5 || y == 50) {
     console.log('Yes, one value is correct'); // returns -> Yes, one value is correct because at least one statemen is true
 }
 
+// Using AND statement
 
+if ( x == 10 && y == 40) {
+    console.log('True');
+} else {
+    console.log('False'); // returns -> false because both statements are not true
+}

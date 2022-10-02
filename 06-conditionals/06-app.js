@@ -31,4 +31,10 @@ let gender1 = "Male";
 let gender2 = "Female"
 const age  = 21;
 
-
+if (gender1 == 'Male' && age >= 21) {
+    console.log('Welcome my good Sir.');
+} else {
+    console.log('Sorry, you are under age');
+} else if (gender2 == 'Female' && age >= 21) {
+    console.log('Welcome Madam!');
+} 

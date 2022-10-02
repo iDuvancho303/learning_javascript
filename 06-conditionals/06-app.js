@@ -29,11 +29,14 @@ if ( x == 10 && y == 40) {
 
 let gender = "Female";
 
-const age  = 21;
+const age  = 10;
 
 if (gender == 'Male' && age >= 21) {
     console.log('Welcome my good Sir.');
-} else {
-    console.log('Sorry, you are under age');
 }  else if (gender == 'Female' && age >= 21) {
-    console.log('Welcome Madam!'
+    console.log('Welcome Madam!');
+} else {
+    console.log('Sorry you are under age dude!');
+}
+
+// returns -> sorry you are under age dude!

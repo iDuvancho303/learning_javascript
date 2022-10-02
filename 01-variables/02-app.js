@@ -1,5 +1,5 @@
 // VARIABLES
-/*
+
 // Using LET
 let myName = 'Duvan'; // cannot be a reserved keyword
 
@@ -13,8 +13,8 @@ let isApproved = true; // boolean literal
 // Using  CONST
 const interestRate = 3.5; // const variales cannot be reassign 
 
-console.log(interestRate);
-*/
+console.log(interestRate); // returns 3.5
+
 // OBJECTS
 let person = {
     name: 'Duvan',

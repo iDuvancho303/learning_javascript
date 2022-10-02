@@ -23,3 +23,12 @@ if ( x == 10 && y == 40) {
 } else {
     console.log('False'); // returns -> false because both statements are not true
 }
+
+
+// Examples
+
+let gender1 = "Male";
+let gender2 = "Female"
+const age  = 21;
+
+

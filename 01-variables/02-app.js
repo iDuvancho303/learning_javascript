@@ -27,5 +27,18 @@ console.log(person.age);
 
 // Different data types
 
-var name = 'Melanie'; // string
+// String data type
+var name10 = 'Melanie'; // string
+
+var name2 = 'Her name \"is"\ Melanie';
+
+console.log(name2); // returns -> Her name "is" Melanie
+
+// Numeric data type
+
+var number1 = 123456;
+
+var number2 = 15.7;
+
+var number3 = -33.3;
 

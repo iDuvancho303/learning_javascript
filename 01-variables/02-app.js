@@ -24,3 +24,8 @@ let person = {
 person.age = 44; // changing the value of age using dot notation
 
 console.log(person.age);
+
+// Different data types
+
+var name = 'Melanie'; // string
+

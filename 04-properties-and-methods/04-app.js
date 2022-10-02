@@ -16,6 +16,7 @@ console.log(item.length); // returns -> 16
 
 
 // Methods
+
 // Using 'indexOf' 
 
 var item2 = 'student ipad';

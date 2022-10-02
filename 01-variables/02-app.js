@@ -42,3 +42,18 @@ var number2 = 15.7;
 
 var number3 = -33.3;
 
+// Boolean data type 
+
+var bool = true;
+
+var bool2 = false;
+
+// undefined data
+
+var color; // no value assigned to the variables YET
+
+// Null data type
+
+var color2 = null;
+
+console.log(color2); // returns null , no value

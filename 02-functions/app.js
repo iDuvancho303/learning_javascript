@@ -51,3 +51,12 @@ function  testExample(a) {
 
 console.log(testExample('Melanie')); // returns -> Hola, my name is Melanie
 
+
+// Anonymous functions
+
+var testExample2 = function(a) {
+    var greeting = 'Hi, My name is Duvan Flores ' + a;
+    return greeting;
+}
+
+console.log(testExample2("Carlos")); // returns -> Hi, My name is Duvan Flores Carlos

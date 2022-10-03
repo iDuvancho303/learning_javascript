@@ -1,5 +1,5 @@
 
-// fUNCTIONS
+// FUNCTIONS
 
 // Write a simple function
 
@@ -37,3 +37,14 @@ function square(number) {
 }
 
 console.log(square(3)); // returns -> 9
+
+
+
+// More about functions 
+
+// Name functions
+
+function  testExample() {
+    var greeting = 'Hi, my name is Duvan';
+    console.log(gretting);
+}

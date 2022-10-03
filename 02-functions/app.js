@@ -45,6 +45,8 @@ console.log(square(3)); // returns -> 9
 // Name functions
 
 function  testExample() {
-    var greeting = 'Hi, my name is Duvan';
-    console.log(gretting);
+    var greeting = 'Hola, my name is Duvan';
+    console.log(greeting);
 }
+
+testExample();

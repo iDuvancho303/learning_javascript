@@ -29,11 +29,13 @@ var info = 'My name is Daniel and I am' + ' ' + age + ' ' + 'years old.'
 
 console.log(info);
 
-// Comparison operators
 
+
+// Comparison operators
+/*
 == // equal to
 
-=== // equal value and equal tyep
+=== // equal value and equal type
 
 != // not equal
 
@@ -46,3 +48,4 @@ console.log(info);
 >= // greater than or equal to
 
 <= // less than or equal to
+*/

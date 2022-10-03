@@ -71,20 +71,20 @@ console.log(testExample2("Carlos")); // returns -> Hi, My name is Duvan Flores C
 // function -> pass a parameter -> years old
 // argument -> to test different age values
 
-
+var age;
 
 function peopleWithAgeDrink(old) {
-    if (age = old) {
+    if (age === old) {
       return "drink toddy";
-    } else if (age == 17) {
+    } else if (age === 17) {
       return "drink coke";
-    } else if (age == 18) {
+    } else if (age === 18) {
       return "drink beer";
-    } else if (age == 20) {
+    } else if (age === 20) {
       return "drink beer"; 
-    } else if (age == 30) {
+    } else if (age === 30) {
       return "drink whisky";
     } else return "Not allowed to drink";
   }
   
-  console.log(peopleWithAgeDrink(20)); 
+  console.log(peopleWithAgeDrink(30)); 

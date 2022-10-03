@@ -60,3 +60,31 @@ var testExample2 = function(a) {
 }
 
 console.log(testExample2("Carlos")); // returns -> Hi, My name is Duvan Flores Carlos
+
+
+
+// Testing code wars challenges 
+
+
+
+// use conditionals 
+// function -> pass a parameter -> years old
+// argument -> to test different age values
+
+
+
+function peopleWithAgeDrink(old) {
+    if (age = old) {
+      return "drink toddy";
+    } else if (age == 17) {
+      return "drink coke";
+    } else if (age == 18) {
+      return "drink beer";
+    } else if (age == 20) {
+      return "drink beer"; 
+    } else if (age == 30) {
+      return "drink whisky";
+    } else return "Not allowed to drink";
+  }
+  
+  console.log(peopleWithAgeDrink(20)); 

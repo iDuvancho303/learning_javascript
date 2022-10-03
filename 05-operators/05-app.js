@@ -28,3 +28,21 @@ var age = 10;
 var info = 'My name is Daniel and I am' + ' ' + age + ' ' + 'years old.'
 
 console.log(info);
+
+// Comparison operators
+
+== // equal to
+
+=== // equal value and equal tyep
+
+!= // not equal
+
+!== // not equal value or equal type
+
+> // greater than
+
+< // less than
+
+>= // greater than or equal to
+
+<= // less than or equal to

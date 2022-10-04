@@ -75,3 +75,9 @@ var two = 30; // variable  outside the function
 function examples2() {
     return ;
 }
+
+// We have function scopes
+
+// Block scopes such as IF statements
+
+// You can't call a variables inside a funcition but you can from block scopes

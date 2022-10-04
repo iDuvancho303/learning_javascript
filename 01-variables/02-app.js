@@ -57,3 +57,21 @@ var color; // no value assigned to the variables YET
 var color2 = null;
 
 console.log(color2); // returns null , no value
+
+
+// Local variables
+
+function example() {
+    var b = 20; // variable is inside the function
+}
+
+console.log();  
+
+
+// Global variables
+
+var two = 30; // variable  outside the function
+
+function examples2() {
+    return ;
+}

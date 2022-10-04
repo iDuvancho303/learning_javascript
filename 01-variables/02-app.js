@@ -81,3 +81,15 @@ function examples2() {
 // Block scopes such as IF statements
 
 // You can't call a variables inside a funcition but you can from block scopes
+
+
+// What CONST does compare to LET variables
+
+const examples3 = 20;
+
+console.log(examples3); // returns -> 20
+/*
+const examples3 = 120 ; 
+
+console.log(examples3); // returns -> error
+*/

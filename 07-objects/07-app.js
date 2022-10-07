@@ -1,6 +1,6 @@
 // Objects 
 
-let person1 = new Object();
+let person1 = new Object(); // first letter is always uppercase
 
 person1.name = "Carlos";
 person1.age = 25;
@@ -30,7 +30,10 @@ let person = {
 
 // How to create object constructors
 
-function People(name, eyeColor, age) {
+// Camel Notation -> oneTwoThreeFour
+// Pascal Notation -> OneTwoThreeFour (start with uppercase letter)
+ 
+function People(name, eyeColor, age) { // start with uppercase 
     this.name = name; // we use the keyword "This" to refer to the object.
     this.eyeColor = eyeColor;
     this.age = age;
@@ -41,3 +44,6 @@ function People(name, eyeColor, age) {
 
 let person01 = new People("Emily", "Green", 25);
 
+console.log(person01.eyeColor); // returns -> green
+
+console.log

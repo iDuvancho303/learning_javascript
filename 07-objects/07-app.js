@@ -30,6 +30,14 @@ let person = {
 
 // How to create object constructors
 
-function People() {
-    this.name: "name"; // we use the keyword "This" to refer to the object.
+function People(name, eyeColor, age) {
+    this.name = name; // we use the keyword "This" to refer to the object.
+    this.eyeColor = eyeColor;
+    this.age = age;
+    this.updateAge = function() {  // creating a method inside an object
+        return ++this.age;
+    };
 }
+
+let person01 = new People("Emily", "Green", 25);
+

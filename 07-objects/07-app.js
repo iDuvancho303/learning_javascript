@@ -21,5 +21,8 @@ console.log(person1.age) // returns -> 26
 let person = {
     name: "Melanie",
     age: 10,
-    eyeColor: "Brown"
+    eyeColor: "Brown",
+    updateAge: function() {
+        return ++person.age;
+    }
 }

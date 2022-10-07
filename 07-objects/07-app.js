@@ -46,4 +46,4 @@ let person01 = new People("Emily", "Green", 25);
 
 console.log(person01.eyeColor); // returns -> green
 
-console.log
+console.log(person01.age); // returns -> 25 

@@ -14,3 +14,12 @@ console.log(person1.age); // returns -> 25
 person1.updateAge();
 
 console.log(person1.age) // returns -> 26 
+
+
+// Simpler way to create objects 
+
+let person = {
+    name: "Melanie",
+    age: 10,
+    eyeColor: "Brown"
+}

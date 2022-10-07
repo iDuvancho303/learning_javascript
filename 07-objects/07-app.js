@@ -26,3 +26,10 @@ let person = {
         return ++person.age;
     }
 }
+
+
+// How to create object constructors
+
+function People() {
+    this.name: "name"; // we use the keyword "This" to refer to the object.
+}

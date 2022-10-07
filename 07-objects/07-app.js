@@ -1,5 +1,16 @@
 // Objects 
 
-let name = 'Carlos';
+let person1 = new Object();
 
-console.log(name.length); // returns -> 6
+person1.name = "Carlos";
+person1.age = 25;
+person1.eyeColor = "Brown";
+person1.updateAge = function() {   // using a method inside an object
+    return  ++person1.age;
+}
+
+console.log(person1.age); // returns -> 25
+
+person1.updateAge();
+
+console.log(person1.age) // returns -> 26 

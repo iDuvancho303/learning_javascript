@@ -29,4 +29,8 @@ const items = {
    { name: 'Motorola', price: 500}  
 }
 
-const filterItems = items.filter(())
+const filterItems = items.filter((item) => {
+    return item.price <= 600;
+})
+
+console.log(filterItems); 

@@ -114,5 +114,5 @@ const finder = colors.find((a) => {
     return a === 'Purple';
 })
 
-console.log(finder); // returns -> purple . the firs item that finds on the array.
+console.log(finder); // returns -> purple . the first item that returns true after the statement you passed
  

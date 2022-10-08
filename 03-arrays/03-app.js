@@ -18,3 +18,15 @@ console.log(selectColors[2]); // returns "yellow"
 console.log(selectColors.length); //returns 3
 
 
+
+
+// Multiple arrays
+
+const items = {
+   { name: 'iphone', price: 1100},
+   { name: 'Samsung', price: 900},
+   { name: 'OnePlus', price: 700},
+   { name: 'Motorola', price: 500}  
+}
+
+const filterItems = items.filter(())

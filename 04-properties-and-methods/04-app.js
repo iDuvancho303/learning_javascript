@@ -89,4 +89,30 @@ const filteredItems2 = items.filter((clr) => {
 console.log(filteredItems2); // returns 1 arrays one plus green
 
 
+// Using .map 
+
+const vegetables = [
+    {name: 'banana', price: 2},
+    {name: 'Mango', price: 4},
+    {name: 'Watermelon', price: 5},
+    {name: 'passion fruit', price: 7}
+]
+
+const filteredVeggies = vegetables.map((item2) => {
+    return item2.name;
+})
+
+
+console.log(filteredVeggies); // returns an array with the name of all fruits.
+
+
+// Using .find 
+
+const colors = ['Yellow', 'Blue', 'Red', 'Purple', 'Pink'];
+
+const finder = colors.find((a) => {
+    return a === 'Purple';
+})
+
+console.log(finder); // returns -> purple . the firs item that finds on the array.
  

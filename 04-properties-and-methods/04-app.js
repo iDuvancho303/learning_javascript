@@ -67,6 +67,26 @@ motorcycle.push('Yamaha');
 
 console.log(motorcycle); // returns -> ['Ducati', 'Honda', 'Kawazaki', 'Yamaha']
 
+// Using .filter 
+
+const items = [
+    {name: "iPhone", color: "Silver", price: 1100},
+    {name: "Samsung", color: "White", price: 800},
+    {name: "OnePlus", color: "green", price: 700},
+    {name: "Motorola", color: "gray", price: 600}
+]
+
+const filteredItems = items.filter((item) => {
+    return item.price <= 700;
+})
+
+console.log(filteredItems); // returns 2 arrays with price under 700, in this case oneplus and motorola
+
+const filteredItems2 = items.filter((clr) => {
+    return clr.color === "green";
+})
+
+console.log(filteredItems2); // returns 1 arrays one plus green
 
 
  

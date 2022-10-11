@@ -136,6 +136,7 @@ console.log(calc1);
 
 // Using "Math.random"
 
-let calc2 = Math.random
+let calc2 = Math.random(); //
 
+console.log(calc2); // returns -> random decimal number between  0 and 1
  

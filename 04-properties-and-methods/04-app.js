@@ -139,4 +139,11 @@ console.log(calc1);
 let calc2 = Math.random(); //
 
 console.log(calc2); // returns -> random decimal number between  0 and 1
- 
+
+
+// What about if I want to return a whole number?
+
+let calc3 = Math.floor( (Math.random() * 100) +1);
+
+console.log(calc3); // returns a whole number
+

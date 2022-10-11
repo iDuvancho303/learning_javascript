@@ -1,3 +1,14 @@
 body {
-    color
+    background-color: rgb(53, 51, 51);
+}
+
+.box1 {
+    background-color: #fff;
+    height: 300px;
+}
+
+.box1 h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }

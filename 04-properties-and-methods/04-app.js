@@ -115,4 +115,27 @@ const finder = colors.find((a) => {
 })
 
 console.log(finder); // returns -> purple . the first item that returns true after the statement you passed
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Using "Math.floor"
+
+let calc1 = Math.floor(5.5);  // returns -> 5
+
+console.log(calc1);
+
+// Using "Math.random"
+
+let calc2 = Math.random
+
  

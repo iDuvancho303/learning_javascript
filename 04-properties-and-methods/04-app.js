@@ -147,3 +147,22 @@ let calc3 = Math.floor( (Math.random() * 100) +1);
 
 console.log(calc3); // returns a whole number
 
+// with an anonymous function
+
+let getRandomNumber = function(start, range) {
+    let getRandom = Math.floor( (Math.random() * range) + start);
+
+    while (getRandom > range) {
+        getRandom = Math.floor( (Math.random() * range) + start);
+    }
+
+    return getRandom;
+}
+
+console.log(getRandomNumber(5, 10));
+
+console.log(getRandomNumber(5, 10));
+
+console.log(getRandomNumber(5, 10));
+
+console.log(getRandomNumber(5, 10));

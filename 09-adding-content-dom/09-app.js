@@ -1,1 +1,1 @@
- 
+ let getElement = document.querySelector(".box1");

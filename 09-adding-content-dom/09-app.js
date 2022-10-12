@@ -19,6 +19,6 @@ console.log(currentHour);
  } else if (currentHour > 22 && currentHour <= 5) {
     createMessage = 'Time to go to sleep!';
  } else {
-    createMessage = 'Are you from a different dimension';
+    createMessage = 'Are you from a different dimension?';
  }
 

@@ -22,5 +22,9 @@ console.log(currentHour);
     createMessage = 'Are you from a different dimension?';
  }
 
- console.log(createMessage);
+ let createText = document.createTextNode(createMessage);
+
+ createNewElement.appendChild(createText);
+
+ getElement.appendChild(createNewElement);
 

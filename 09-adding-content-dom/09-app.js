@@ -22,3 +22,5 @@ console.log(currentHour);
     createMessage = 'Are you from a different dimension?';
  }
 
+ console.log(createMessage);
+

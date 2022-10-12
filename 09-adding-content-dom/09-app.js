@@ -3,8 +3,9 @@
  let createNewElement = document.createElement("h2")
 
  let date = new Date();
- let currentHour = date.getHours();
 
+ let currentHour = date.getHours();
+console.log(currentHour);
  let createMessage;
 
  if (currentHour >= 5 && currentHour <= 10) {
@@ -21,4 +22,3 @@
     createMessage = 'Are you from a different dimension';
  }
 
- 

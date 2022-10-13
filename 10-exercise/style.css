@@ -10,6 +10,15 @@
    /* z-index: 1000; */
 }
 
+.menu-btn {
+    width: 250px;
+    background-color: #192841;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+
 .menu ul {
     padding-top: 15px;
 }

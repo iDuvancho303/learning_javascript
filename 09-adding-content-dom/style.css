@@ -14,3 +14,9 @@ body h1 {
     margin: auto;
     margin-top: 40px;
   }
+
+.texto {
+    font-size: 60px;
+    font-family: 'Inconsolata', monospace;
+    margin: 0 auto;
+}

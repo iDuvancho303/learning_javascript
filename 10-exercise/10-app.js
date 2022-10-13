@@ -15,3 +15,5 @@ function menuToggle() {
         menuStatus = false;
     }
 }
+
+menuBtn.onclick = menuToggle;

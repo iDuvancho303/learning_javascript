@@ -1,13 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 .menu {
     width: 300px;
     position: fixed;
-    left: 0;
-    bottom: 0;
-    padding: 0 5px;
     height: calc(100vh - 60px);
     background-color: #192841;
-   /* z-index: 1000; */
+    padding-left: 15px;
 }
 
 .menu-btn {
@@ -17,6 +20,7 @@
     font-size: 20px;
     padding: 0 5px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .menu ul {

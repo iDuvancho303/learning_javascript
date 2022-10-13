@@ -28,5 +28,5 @@ console.log(currentHour);
 
  getElement.appendChild(createNewElement);
 
- document.querySelector('.box1 h2').classList.add('texto');
+ document.querySelector('.box1 h2').classList.add('texto'); 
 

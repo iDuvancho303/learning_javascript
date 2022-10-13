@@ -16,7 +16,9 @@ body h1 {
   }
 
 .texto {
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Inconsolata', monospace;
-    margin: 0 auto;
+    margin: auto;
+    color: #fff;
+    padding-top: 100px;
 }

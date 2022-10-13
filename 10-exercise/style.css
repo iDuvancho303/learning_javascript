@@ -16,6 +16,7 @@
 
 .menu ul li {
     line-height: 60px;
+    list-style: none;
 }
 .menu ul li a {
     text-decoration: none;

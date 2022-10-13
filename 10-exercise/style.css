@@ -1,0 +1,24 @@
+
+.menu {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0 5px;
+    height: calc(100vh - 60px);
+    background-color: #192841;
+   /* z-index: 1000; */
+}
+
+.menu ul {
+    padding-top: 15px;
+}
+
+.menu ul li {
+    line-height: 60px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
